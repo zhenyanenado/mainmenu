@@ -1,0 +1,89 @@
+body{
+	background-size: all;
+	background-image: url('https://www2.pictorem.com/collection/900_Gunawan-Rb_Aloy%20%E2%80%93%20Game%20Horizon%20Zero%20Dawn%202.jpg');
+	transition: all ease 1s;
+	min-height: 1337px;
+	max-height: 1337px;
+	min-width: 750px;
+	max-width: 750px;
+
+}
+
+#grid{
+	grid-template-rows: repeat(1, 130);
+	grid-template-columns: repeat(5, 130px);
+	display: grid;
+	min-height: 1337px;
+	max-height: 1337px;
+	min-width: 750px;
+	max-width: 750px;
+}
+
+#grid1, #grid2, #grid3, #grid4{
+	border-radius: 30px;
+	left: 100px;
+}
+
+#grid1{
+	height: 150px;
+	width: 150px;
+	transition: all ease 1s;
+	position: relative;
+	margin-left: 50px;
+	background-size: 100%;
+	background-image: url('https://gamebomb.ru/files/galleries/001/2/29/306957.jpg');
+
+}      
+
+#grid2{
+	background-size: 100%;
+	background-image: url('https://upload.wikimedia.org/wikipedia/ru/d/d6/Halo_infinite_cover.png');
+	height: 150px;
+	width: 150px;
+	transition: all ease 1s;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	position: relative;
+	margin-left: 100px;
+}
+
+#grid3{	
+	background-size: 100%;
+	background-image: url('https://img.redbull.com/images/c_crop,x_660,y_0,h_2160,w_2520/c_fill,w_650,h_540/q_auto,f_auto/redbullcom/2020/11/25/obvaauwxrnkxsexocm3w/far-cry-6-header');
+	position: relative;
+	height: 150px;
+	width: 150px;
+	transition: all ease 1s;
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	margin-left: 150px;
+}
+
+#grid4{
+	background-image: url('https://i0.wp.com/itc.ua/wp-content/uploads/2021/03/155933-homepage-news-bafta-games-awards-2021-image2-byqsv6lkdw.jpg?fit=1200%2C800&quality=100&strip=all&ssl=1');
+	background-size: 100%;
+	position: relative;
+	height: 150px;
+	width: 150px;
+	transition: all ease 1s;
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	margin-left: 200px;
+}
+
+#play{
+	position: fixed;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 400px;
+	font-style: inherit;
+	opacity: 0;
+	left: 50px;
+	transition: all ease 1s;
+}
