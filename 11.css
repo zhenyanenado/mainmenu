@@ -22,6 +22,7 @@ body{
 #grid1, #grid2, #grid3, #grid4{
 	border-radius: 30px;
 	left: 100px;
+	margin-top: 50px;
 }
 
 #grid1{
