@@ -1,0 +1,215 @@
+body{
+	background-size: 100%;
+	background-image: url('https://i.imgur.com/bnXxKlF.png');
+	transition: all ease 1s;
+	min-height: 1337px;
+	max-height: 1337px;
+	min-width: 750px;
+	max-width: 750px;
+	position: fixed;
+	width: 750px;
+	height: 1337px;
+	touch-action: none;
+}
+
+
+#grid{
+	grid-template-rows: repeat(2, 130);
+	grid-template-columns: repeat(5, 130px);
+	transition: all ease 1s;
+	display: grid;
+	position: fixed;
+	width: 750px;
+	height: 1337px;
+	touch-action: none;
+	min-height: 1337px;
+	max-height: 1337px;
+	min-width: 750px;
+	max-width: 750px;
+}
+
+#f1, #f2, #f3, #f4, #f5{
+	font-size: 30px;
+	position: relative;
+	top: 80px;
+	left: 30px;
+	opacity: 0;
+	transition: all ease 1s;
+}
+
+
+#grid1, #grid2, #grid3, #grid4{
+	margin-top: 50px;
+	border-radius: 30px;
+	left: 100px;
+	width: 150px;
+	height: 150px;
+	position: relative;
+	transition: all ease 1s;
+}
+
+#grid1{
+	background-size: 100%;
+	background-image: url('https://static.wikia.nocookie.net/half-life/images/d/dc/Lambda_logo.svg/revision/latest?cb=20100327174546&path-prefix=en');
+}
+
+#grid2{
+	background-size: 100%;
+	background-image: url('https://i1.sndcdn.com/artworks-000787105579-jkce5q-t500x500.jpg');
+}
+
+#grid4{
+	background-size: 100%;
+	background-image: url('https://www.pngitem.com/pimgs/m/244-2447042_the-last-of-us-part-ii-last-of.png');
+}
+
+#grid3{
+	background-size: 100%;
+	background-image: url('https://i.pinimg.com/originals/a9/92/7a/a9927a9c1c9ff3000445276ab538f795.png');
+}
+
+#grid5, #grid6, #grid7, #grid8{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	border: 1px solid white;
+	transition: all ease 0.5s;
+}
+
+#grid5{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	width: 178px;
+	height: 200px;
+	position: relative;
+	left: 150px;
+	border-left: 2px solid white;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	transition: all ease 1s;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px; 
+}
+
+#grid6{
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	width: 180px;
+	height: 200px;
+	position: relative;
+	left: 200px;
+	transition: all ease 1s;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+#grid7{
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	width: 180px;
+	height: 200px;
+	transition: all ease 1s;
+	position: relative;
+	left: 250px;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+#grid8{
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	width: 180px;
+	height: 200px;
+	position: relative;
+	transition: all ease 1s;
+	left: 300px;
+	border-right: 2px solid white;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+
+#grid1{
+	height: 150px;
+	width: 150px;
+	transition: all ease 0.5s;
+	position: relative;
+	margin-left: 50px;
+	background-size: 100%;
+	background-image: url('https://pbs.twimg.com/profile_images/1197309946171449345/WjKhdTbX_400x400.png');
+
+}      
+
+#grid2{
+	position: relative;
+	transition: all ease 1s;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	margin-left: 100px;
+}
+
+#grid3{	
+	background-size: 100%;
+	position: relative;
+	height: 150px;
+	width: 150px;
+	transition: all ease 1s;
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	margin-left: 150px;
+}
+
+#grid4{
+	background-size: 100%;
+	position: relative;
+	height: 150px;
+	width: 150px;
+	transition: all ease 1s;
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	margin-left: 200px;
+}
+
+#play{
+	background-size: 100%;
+	transition: all ease 1s;
+	background-image: url('https://negev-produce.co.il/wp-content/uploads/2020/08/arrow-down.png');
+	position: fixed;
+	width: 150px;
+	height: 100px;
+	font-weight: bolder;
+	font-size: 30px;
+	margin-top: 99%;
+	font-style: inherit;
+	opacity: 1;
+	left: 45%;
+
+}
+
+#grid9, #grid10, #grid11, #grid12{
+	position: relative;
+	opacity: 0;
+	width: 130px;
+	height: 130px;
+	border: 3px solid white;
+	transition: all ease 1s;
+	border-radius: 30%;
+	margin-left: 230px;
+	margin-top: 50px;
+}
